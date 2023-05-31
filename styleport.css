@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+/* Estilos para el encabezado */
+
+header {
+    height: 50vh;
+    background-image: url(https://static.bandainamcoent.eu/high/dark-souls/dark-souls-3/00-page-setup/ds3_game-thumbnail.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-top: 150px;
+}
+
+header p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilos para la sección "Acerca de mí" */
+
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Estilos para la sección "Proyectos" */
+
+#projects {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: block;
+    margin: auto;
+    background-color: #1abc9c;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover {
+    background-color: #16a085;
+    border-color: #16a085;
+}
+
+.container-gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 2rem;
+}
+
+.gallery img {
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.gallery figcaption {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.favgames {
+    text-align: center;
+    margin: 2rem;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  footer p {
+    text-align: center;
+    margin: 0;
+  }
